@@ -1,0 +1,114 @@
+html {
+  background: #FAF7F2;
+  background-image: url(https://s3.postimg.org/s1n3ji1ur/paper_fibers_2_X.png);
+  /* border-box ensures that the width and height of the box specified are the true
+     width and height.  Padding dimensions aren't added to the specified dimensions
+     to create a bigger box. */
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.card-number {
+  margin-top: 15px;
+}
+
+.card-circle {
+  border: 1px solid #aaa;
+  border-radius: 50%;
+  /* Allows the element to be formatted as a block with height and width parameters, 
+     but it's styled inline like a <span> element */ 
+  display: inline-block;
+  font-size: 12px;
+  height: 25px;
+  width: 25px;
+  /* Specifies the height of the line the text is located on, independent of the font size.
+     This is similar to a ruled line on notebook paper.*/
+  line-height: 25px;
+  text-align: center;
+}
+
+.card-container {
+  margin: 20px auto 0;
+  width: 692px;
+  position: relative;
+  box-shadow: 10px 10px 25px #777;
+}
+
+.card {
+  background-color: #fff;
+  /* This site: https://www.w3schools.com/css/css_boxmodel.asp explains the difference between
+     margin and padding.  padding is the distance between an element's content and its own border.
+     margin is the distance between an element and another element. */
+  padding: 30px;
+  /* Both this site: http://www.barelyfitz.com/screencast/html-training/css/positioning/ and this site:
+     https://css-tricks.com/absolute-relative-fixed-positioining-how-do-they-differ/ explain positioning
+     within a page. */
+  position: relative;
+  z-index: 1;
+}
+
+.card-body {
+  display: inline-block;
+  width: 310px;
+  /* Float to the left of the containing element. */
+  float: left;
+}
+
+.card-author {
+  display: block;
+  font-size: 12px;
+  /* top margin is 15px, left and right are 0px, and bottom is 0px */
+  margin: 15px 0px 0px;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+}
+
+.subtle {
+  color: #aaa;
+}
+
+.card-title {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 60px;
+  font-weight: 300;
+  line-height: 60px;
+  margin: 10px 0;
+}
+
+.card-description {
+  display: inline-block;
+  font-weight: 300;
+  line-height: 22px;
+  margin: 10px 0;
+}
+
+.card-tag {
+  float: right;
+  margin: 5px 0 0;
+}
+
+.card-media {
+  float: right;
+}
+
+.card-read {
+  font-size: 14px;
+  font-weight: normal;
+  letter-spacing: 6px;
+  margin: 5px 0 20px;
+  position: relative;
+  text-align: right;
+  text-transform: uppercase;
+}
