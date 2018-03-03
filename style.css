@@ -21,7 +21,7 @@ html {
 }
 
 .card-number {
-  margin-top: 15px;
+  margin-top: 5px;
 }
 
 .card-circle {
@@ -66,11 +66,14 @@ html {
   float: left;
 }
 
-.card-author {
-  display: block;
+.card-header {
+  margin-bottom: 15px;
+}
+.card-title {
+  display: inline;
   font-size: 12px;
-  /* top margin is 15px, left and right are 0px, and bottom is 0px */
-  margin: 15px 0px 0px;
+  /* top margin is 5px, left and right are 5px, and bottom is 0px */
+  margin: 5px 5px 0px;
   letter-spacing: .5px;
   text-transform: uppercase;
 }
@@ -94,24 +97,11 @@ html {
   color: #aaa;
 }
 
-.card-title {
-  font-family: 'Cormorant Garamond', serif;
-  font-size: 60px;
-  font-weight: 300;
-  line-height: 60px;
-  margin: 10px 0;
-}
-
 .card-description {
   display: inline-block;
   font-weight: 300;
   line-height: 22px;
   margin: 10px 0;
-}
-
-.card-tag {
-  float: right;
-  margin: 5px 0 0;
 }
 
 .card-media {
