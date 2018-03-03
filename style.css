@@ -75,6 +75,21 @@ html {
   text-transform: uppercase;
 }
 
+.card-stats {
+  color: #687861;
+}
+
+.icon {
+  display: inline;
+  font-size: 18px;
+  margin-right: 25px;
+}
+
+.card-stat-text {
+  margin-left: 5px;
+  font-size: 14px;
+}
+
 .subtle {
   color: #aaa;
 }
