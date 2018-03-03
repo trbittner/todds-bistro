@@ -28,7 +28,7 @@ html {
   border: 1px solid #aaa;
   border-radius: 50%;
   /* Allows the element to be formatted as a block with height and width parameters, 
-     but it's styled inline like a <span> element */ 
+     but it's styled inline like a <span> element */
   display: inline-block;
   font-size: 10px;
   height: 25px;
@@ -69,6 +69,7 @@ html {
 .card-header {
   margin-bottom: 15px;
 }
+
 .card-title {
   display: inline;
   font-size: 12px;
