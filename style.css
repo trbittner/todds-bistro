@@ -107,6 +107,8 @@ html {
 
 .card-media {
   float: right;
+  border: 1px solid #000;
+  border-radius: 10px;
 }
 
 .card-read-header {
