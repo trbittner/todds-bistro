@@ -10,6 +10,36 @@ html {
   font-weight: 400;
 }
 
+/* The main notebook page */
+.paper {
+  position: absolute;
+  height: 1100px;
+  width: 900px;
+  background: lightgoldenrodyellow;
+  left: 15%;
+}
+
+/* The ::before selector adds content to the specified class.  It uses the class div as the reference point, so, 
+   in the directive below, the styling will apply to the .paper class div, creating a red stripe 50px in from the 
+   .paper div's origin. */
+.paper::before {
+  content: '';
+  position: absolute;
+  left: 50px;
+  height: 100%;
+  width: 2px;
+  background: red;
+}
+
+.lines {
+  margin-top: 40px;
+  height: calc(100% - 40px);
+  width: 100%;
+  /* This indicates that from 0 - 24px on the gradient, transition from yellow to yellow (so, no transition).
+     From 24 - 25px transition from yellow to blue (essentially creating thin blue lines). */
+  background-image: repeating-linear-gradient(lightgoldenrodyellow 0px, lightgoldenrodyellow 24px, steelblue 25px);
+}
+
 * {
   box-sizing: inherit;
 }

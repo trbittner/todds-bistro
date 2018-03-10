@@ -3,3 +3,4 @@
 * [Gravit](https://designer.gravit.io/) is a browser based alternative to Inkscape.
 * [This](https://fonts.google.com/specimen/Shadows+Into+Light) is likely the font for our front page.
 * The [inspiration](https://codepen.io/amwill/pen/YyexrJ) for the style of our front page.
+* Notes on CSS positioning [here](https://www.w3schools.com/cssref/pr_class_position.asp).
