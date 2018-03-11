@@ -62,10 +62,16 @@ html {
 .cookbook-title {
   position: relative;
   left: 54px;
-  top: -10px;
+  top: -14px;
   font-family: 'Shadows Into Light', cursive;
-  font-size: 28px;
+  font-size: 32px;
   font-weight: 700;
+}
+
+.section-title {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 20px;
+  font-weight: 600;
 }
 
 .holes {
@@ -90,6 +96,13 @@ html {
   bottom: 10%;
 }
 
+.block-link {
+  display: block;
+}
+
+/*************************/
+/* The recipe card page. */
+/*************************/
 * {
   box-sizing: inherit;
 }
