@@ -6,3 +6,6 @@
 * Notes on CSS positioning [here](https://www.w3schools.com/cssref/pr_class_position.asp).
 * The best way to figure out [box shadows](https://www.w3schools.com/cssref/css3_pr_box-shadow.asp) 
 in CSS is [to play](https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_box-shadow) with them.
+* [This styling](https://www.w3schools.com/css/css3_multiple_columns.asp) may prove useful for multiple columns when we need it.
+* [Vue Router](https://router.vuejs.org/en/essentials/getting-started.html).
+* [...and here's the link to the Vue guide itself](https://vuejs.org/v2/guide/single-file-components.html).
