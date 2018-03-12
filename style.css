@@ -96,6 +96,11 @@ html {
   bottom: 10%;
 }
 
+a:link,a:visited {
+  color:blue;
+  text-decoration: none;
+}
+
 .block-link {
   display: block;
 }
