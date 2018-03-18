@@ -9,3 +9,10 @@ in CSS is [to play](https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_
 * [This styling](https://www.w3schools.com/css/css3_multiple_columns.asp) may prove useful for multiple columns when we need it.
 * [Vue Router](https://router.vuejs.org/en/essentials/getting-started.html).
 * [...and here's the link to the Vue guide itself](https://vuejs.org/v2/guide/single-file-components.html).
+
+* Upgrading node with `nvm` is simple (note it's `nvm` not `npm`) - `nvm install stable`
+* Then upgrade npm - `npm install npm@latest -g`
+
+* Vue seems to be a bit heavy handed, but I don't want code duplication, so I'm going to try Google's 
+[Firebase](https://firebase.google.com/).
+* When logging in, use `firebase login --no-localhost`
