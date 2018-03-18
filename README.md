@@ -19,3 +19,13 @@ in CSS is [to play](https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_
 
 * While researching firebase, I came across more information on static site generators.  I'm trying my hand at 
 [gitlab pages](https://about.gitlab.com/features/pages/), specifically the [jekyll](https://gitlab.com/pages/jekyll) set up.
+* `sudo apt-get update`
+* `sudo apt-get install ruby` This is an old version of ruby, so we need to do some more work.
+* `sudo apt-get install gnupg2`
+* Follow [these instructions](http://rvm.io/) and [these hints](https://tecadmin.net/install-ruby-on-rails-on-ubuntu/).
+* `sudo usermod -a -G rvm cabox`
+* `rvm list known`
+* `rvm install 2.4.1`
+* `rvm use 2.4.1 --default`
+* `sudo gem install jekyll bundler`
+* [More information on using jekyll](http://damonbauer.me/organizing-jekyll-pages/).
