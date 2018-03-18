@@ -1,0 +1,46 @@
+<html>
+
+<head>
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+  <link rel="stylesheet" type="text/css" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
+</head>
+
+<body>
+  <div class="card-container">
+    <div class="card clearfix">
+      <article>
+        <div class="card-body">
+          <div class="card-header">
+            <span class="card-number card-circle subtle">{{ page.recipe-number }}</span>
+            <span class="card-title subtle">{{ page.recipe-title }}</span>
+          </div>
+          <div class="card-stats">
+            <span class="icon ion-fork"><span class="card-stat-text">{{ page.servings }}</span></span>
+            <span class="icon ion-clock"><span class="card-stat-text">{{ page.prep-time }}</span></span>
+            <span class="icon ion-connection-bars"><span class="card-stat-text">{{ page.level }}</span></span>
+            <span class="icon ion-flame"><span class="card-stat-text">{{ page.calories }}</span></span>
+          </div>
+          <span class="card-description subtle">{{ page.description }}</span>
+          <div class="card-read">
+            <span class="card-read-header">Ingredients</span>
+            <ul class="card-read-list">
+              {% for ingredient in page.ingredients %}
+              <li>{{ ingredient }}</li>
+              {% endfor %}
+            </ul>
+            <span class="card-read-header">Instructions</span>
+            <p class="card-read-paragraph">
+              {{ page. instructions }}
+            </p>
+          </div>
+        </div>
+      </article>
+      <aside>
+        <img src="{{ page.image-path }}" alt="" class="card-media" />
+      </aside>
+    </div>
+  </div>
+</body>
+
+</html>
