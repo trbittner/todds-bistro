@@ -16,3 +16,6 @@ in CSS is [to play](https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_
 * Vue seems to be a bit heavy handed, but I don't want code duplication, so I'm going to try Google's 
 [Firebase](https://firebase.google.com/).
 * When logging in, use `firebase login --no-localhost`
+
+* While researching firebase, I came across more information on static site generators.  I'm trying my hand at 
+[gitlab pages](https://about.gitlab.com/features/pages/), specifically the [jekyll](https://gitlab.com/pages/jekyll) set up.
