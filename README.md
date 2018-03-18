@@ -29,3 +29,4 @@ in CSS is [to play](https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_
 * `rvm use 2.4.1 --default`
 * `sudo gem install jekyll bundler`
 * [More information on using jekyll](http://damonbauer.me/organizing-jekyll-pages/).
+* [Information on jekyll collections](https://learn.cloudcannon.com/jekyll/introduction-to-jekyll-collections/).
