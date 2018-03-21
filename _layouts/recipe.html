@@ -1,6 +1,7 @@
 <html>
 
 <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <title>{{ page.title }}</title>
   <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
   <link rel="stylesheet" type="text/css" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
@@ -21,17 +22,17 @@
             <span class="icon ion-connection-bars"><span class="card-stat-text">{{ page.level }}</span></span>
             <span class="icon ion-flame"><span class="card-stat-text">{{ page.calories }}</span></span>
           </div>
-          <span class="card-description subtle">{{ page.description }}</span>
+          <span class="card-description subtle">{{ page.description | markdownify }}</span>
           <div class="card-read">
             <span class="card-read-header">Ingredients</span>
             <ul class="card-read-list">
               {% for ingredient in page.ingredients %}
-              <li>{{ ingredient }}</li>
+              <li>{{ ingredient | markdownify }}</li>
               {% endfor %}
             </ul>
             <span class="card-read-header">Instructions</span>
             <p class="card-read-paragraph">
-              {{ page. instructions }}
+              {{ page.instructions }}
             </p>
           </div>
         </div>
