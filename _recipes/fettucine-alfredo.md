@@ -1,6 +1,5 @@
 ---
 layout: recipe
-title: Todd's Bistro
 recipe-number: "01"
 recipe-title: Chicken and Spinach Fettucine Alfredo
 servings: "2"
