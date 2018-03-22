@@ -1,6 +1,7 @@
 ---
 layout: recipe
 recipe-number: "02"
+recipe-title: Buffalo Chicken Pizza
 servings: "2"
 prep-time: "45 mins"
 level: "Beginner"
