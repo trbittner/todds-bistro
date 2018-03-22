@@ -1,27 +1,24 @@
+# Details on this file can be found at: https://docs.gitlab.com/ee/user/project/pages/introduction.html#explore-the-contents-of-gitlab-ci-yml
+# Specifies the Docker image to be used for execution and deployment
 image: ruby:2.3
 
+# Sets the ENV as per the instructions here: https://jekyllrb.com/docs/usage/
 variables:
   JEKYLL_ENV: production
 
+# Install the gems
 before_script:
   - bundle install
 
-test:
-  stage: test
-  script:
-  - bundle exec jekyll build -d test
-  artifacts:
-    paths:
-    - test
-  except:
-  - master
-
+# This is a special job for gitlab, which is configured here: https://docs.gitlab.com/ee/ci/yaml/README.html#pages
 pages:
+  # More on stages: https://docs.gitlab.com/ee/ci/yaml/README.html#stages
   stage: deploy
   script:
   - bundle exec jekyll build -d public
   artifacts:
     paths:
     - public
+  # Make sure we only deploy on master pushes.
   only:
   - master
