@@ -18,7 +18,7 @@
         <div class="section-title">
           Pasta
         </div>
-        <a href="{{ site.baseurl }}{% link _recipes/fettucine-alfredo.md %}">Boo</a>
+        <a href="{{ site.baseurl }}{% link _recipes/fettucine-alfredo.md %}">Chicken and Spinach Fettucine Alfredo</a>
         <a class="block-link" href="#">Molecular Gastronomy</a>
       </div>      
     </div>
