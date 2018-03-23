@@ -8,10 +8,19 @@
       Todd's Bistro
     </div>
       <div class="text">
-        <div class="section-title">
-          Pasta
-        </div>
-        {% for recipe in site.recipes %}
+      <div class="section-title">Mains</div>
+        {% assign recipes = site.recipes | where:'category','mains' %}
+        {% for recipe in recipes %}
+        <a class="block-link" href="{{ site.baseurl }}{{ recipe.url }}">{{ recipe.recipe-title }}</a>
+        {% endfor %}
+        <div class="section-title">Pasta</div>
+        {% assign recipes = site.recipes | where:'category','pasta' %}
+        {% for recipe in recipes %}
+        <a class="block-link" href="{{ site.baseurl }}{{ recipe.url }}">{{ recipe.recipe-title }}</a>
+        {% endfor %}
+        <div class="section-title">Pizza</div>
+        {% assign recipes = site.recipes | where:'category','pizza' %}
+        {% for recipe in recipes %}
         <a class="block-link" href="{{ site.baseurl }}{{ recipe.url }}">{{ recipe.recipe-title }}</a>
         {% endfor %}
       </div>      

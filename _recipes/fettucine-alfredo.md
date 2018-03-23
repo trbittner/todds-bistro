@@ -28,4 +28,5 @@ instructions: >-
   9. Set heat to low.  Mix in sour cream, cream, and parmesan until heated through.
   10. When pasta and chicken are done, slice chicken cross-wise in 1/4 slices.  Mix spinach, alfredo sauce, and pasta.  Top with chicken.
 image-path: https://s19.postimg.org/soqrte2rn/chicken_fettucine_alfredo.jpg
+category: "pasta"
 ---

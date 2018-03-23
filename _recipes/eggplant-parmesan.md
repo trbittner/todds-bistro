@@ -29,4 +29,5 @@ instructions: >-
   9. When the eggplant is done, reset the oven to 350 degrees.
   10. Top the eggplant with mozzarella, followed by the basil leaves, followed by the tomato sauce.
   11. Bake 10 minutes until cheese is melted and the mixture is heated through.
+category: "mains"
 ---
