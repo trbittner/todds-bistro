@@ -2,10 +2,10 @@
 layout: recipe
 recipe-number: "02"
 recipe-title: Buffalo Chicken Pizza
-servings: "2"
+servings: "3"
 prep-time: "45 mins"
 level: "Beginner"
-calories: "0"
+calories: "610"
 description: "This combines some ready made ingredients, like _Frank's Hot Sauce_ and a pre-made pizza crust, with homemade blue cheese dressing."
 ingredients:
   - A pre-made pizza crust.  I use _Stonefire Grill_, but anything will do.

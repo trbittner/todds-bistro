@@ -2,10 +2,10 @@
 layout: recipe
 recipe-number: "01"
 recipe-title: Chicken and Spinach Fettucine Alfredo
-servings: "2"
+servings: "3"
 prep-time: "45 min"
 level: "Beginner"
-calories: "970"
+calories: "650"
 description: There are a lot rich ingredients here, but it's Alfredo, so it's supposed to be decadent.
 ingredients:
   - 3/4 lb. boneless, skinless chicken breasts, coated with olive oil, salt, and pepper
