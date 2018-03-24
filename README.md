@@ -30,3 +30,5 @@ in CSS is [to play](https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_
 * `sudo gem install jekyll bundler`
 * [More information on using jekyll](http://damonbauer.me/organizing-jekyll-pages/).
 * [Information on jekyll collections](https://learn.cloudcannon.com/jekyll/introduction-to-jekyll-collections/).
+* There are [other filters](https://help.shopify.com/themes/liquid/filters/string-filters#capitalize) that are available, that aren't
+mentioned in the jekyll documentation.

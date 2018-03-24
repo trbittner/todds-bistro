@@ -8,21 +8,14 @@
       Todd's Bistro
     </div>
       <div class="text">
-      <div class="section-title">Mains</div>
-        {% assign recipes = site.recipes | where:'category','mains' %}
+      {% assign recipe_groups = site.recipes | group_by: 'category' | sort: 'name' %}
+      {% for recipe_group in recipe_groups %}
+      <div class="section-title">{{ recipe_group.name | capitalize }}</div>
+        {% assign recipes = recipe_group.items | sort: 'recipe-title' %}
         {% for recipe in recipes %}
         <a class="block-link" href="{{ site.baseurl }}{{ recipe.url }}">{{ recipe.recipe-title }}</a>
         {% endfor %}
-        <div class="section-title">Pasta</div>
-        {% assign recipes = site.recipes | where:'category','pasta' %}
-        {% for recipe in recipes %}
-        <a class="block-link" href="{{ site.baseurl }}{{ recipe.url }}">{{ recipe.recipe-title }}</a>
-        {% endfor %}
-        <div class="section-title">Pizza</div>
-        {% assign recipes = site.recipes | where:'category','pizza' %}
-        {% for recipe in recipes %}
-        <a class="block-link" href="{{ site.baseurl }}{{ recipe.url }}">{{ recipe.recipe-title }}</a>
-        {% endfor %}
+      {% endfor %}  
       </div>      
     </div>
     <div class="holes hole-top"></div>
