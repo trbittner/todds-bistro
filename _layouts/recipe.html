@@ -1,40 +1,31 @@
 {% include header.html %}
-  <div class="card-container">
-    <div class="card clearfix">
-      <article>
-        <div class="card-body">
-          <div class="card-header">
-            <span class="card-number card-circle subtle">{{ page.recipe-number }}</span>
-            <span class="card-title subtle">{{ page.recipe-title }}</span>
-          </div>
-          <div class="card-stats">
-            <span class="icon ion-fork"><span class="card-stat-text">{{ page.servings }}</span></span>
-            <span class="icon ion-clock"><span class="card-stat-text">{{ page.prep-time }}</span></span>
-            <span class="icon ion-connection-bars"><span class="card-stat-text">{{ page.level }}</span></span>
-            <span class="icon ion-flame"><span class="card-stat-text">{{ page.calories }}</span></span>
-          </div>
-          <span class="card-description subtle">{{ page.description | markdownify }}</span>
-          <div class="card-read">
-            <span class="card-read-header">Ingredients</span>
-            <ul class="card-read-list">
-              {% for ingredient in page.ingredients %}
-              <li>{{ ingredient | markdownify }}</li>
-              {% endfor %}
-            </ul>
-            <span class="card-read-header">Instructions</span>
-            <p class="card-read-paragraph">
-              {{ page.instructions }}
-            </p>
-          </div>
-        </div>
-      </article>
-      <aside>
-        <img src="{{ page.image-path }}" alt="" class="card-media" />
-      </aside>
-       <div class="recipe-home">
-         <a href="/index.html"><span class="icon ion-home"><span class="card-stat-text">Home</span></span></a>
-       </div>
+<div class="card-container">
+  <div class="card">
+    <div class="card-header">
+      <span class="card-number card-circle subtle">{{ page.recipe-number }}</span>
+      <span class="card-title subtle">{{ page.recipe-title }}</span>
+      <a class="link-home" href="/index.html"><span class="icon ion-home"><span class="card-stat-text">Home</span></span></a>
     </div>
-
+    <div class="clearfix">
+      <div class="card-body">
+        <div class="card-stats">
+          <span class="icon ion-fork"><span class="card-stat-text">{{ page.servings }}</span></span>
+          <span class="icon ion-clock"><span class="card-stat-text">{{ page.prep-time }}</span></span>
+          <span class="icon ion-connection-bars"><span class="card-stat-text">{{ page.level }}</span></span>
+          <span class="icon ion-flame"><span class="card-stat-text">{{ page.calories }}</span></span>
+        </div>
+        <span class="card-description subtle">{{ page.description | markdownify }}</span>
+        <span class="card-read-header">Ingredients</span>
+        <p class="card-read-paragraph">
+          {{ page.ingredients | join: '; '}}
+        </p>
+        <span class="card-read-header">Instructions</span>
+        <p class="card-read-paragraph">
+          {{ page.instructions }}
+        </p>
+      </div>
+      <img src="{{ page.image-path }}" alt="" class="card-media" />
+    </div>
   </div>
+</div>
 {% include footer.html %}
