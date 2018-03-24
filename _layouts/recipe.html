@@ -17,11 +17,11 @@
         <span class="card-description subtle">{{ page.description | markdownify }}</span>
         <span class="card-read-header">Ingredients</span>
         <p class="card-read-paragraph">
-          {{ page.ingredients | join: '; '}}
+          {{ page.ingredients | join: '; ' }}
         </p>
         <span class="card-read-header">Instructions</span>
         <p class="card-read-paragraph">
-          {{ page.instructions }}
+          {{ page.instructions | join: ' ' }}
         </p>
       </div>
       <img src="{{ page.image-path }}" alt="" class="card-media" />

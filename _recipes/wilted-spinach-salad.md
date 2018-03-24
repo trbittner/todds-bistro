@@ -14,11 +14,11 @@ ingredients:
   - 3 tbsp. olive oil
   - 1/2 tbsp. Red wine vinegar
   - Salt and pepper
-instructions: >-
-  1. Heat olive oil over medium high heat in a medium pot.
-  2. Place onion slices into oil and season with salt and pepper.  Cook for 5 minutes until onions begin to soften.
-  3. Add feta and vinegar and continue cooking until feta begins to soften.
-  4. Turn heat off, but leave pot in place.  Add spinach handfuls at a time and stir to wilt spinach.  As more room 
-  becomes available in the pot, add more spinach.  Spinach should be wilted but not cooked through.
+instructions:
+  - 1. Heat olive oil over medium high heat in a medium pot.
+  - 2. Place onion slices into oil and season with salt and pepper.  Cook for 5 minutes until onions begin to soften.
+  - 3. Add feta and vinegar and continue cooking until feta begins to soften.
+  - 4. Turn heat off, but leave pot in place.  Add spinach handfuls at a time and stir to wilt spinach.  As more room 
+    becomes available in the pot, add more spinach.  Spinach should be wilted but not cooked through.
 category: "salad"
 ---

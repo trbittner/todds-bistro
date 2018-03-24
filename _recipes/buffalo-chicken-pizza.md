@@ -17,15 +17,15 @@ ingredients:
   - 2 oz. blue cheese
   - 1 cup shredded mozzarella
   - Salt and pepper to taste.
-instructions: >-
-  1. Preheat oven to 350 degrees.
-  2. Coat chicken breasts with olive oil, salt and pepper.
-  3. When the oven is pre-heated, turn the broiler to high, and cook chicken breasts 6 inches from the heat source for about 5-6 minutes per side.
-  4. While the chicken is cooking, mash the sour cream, blue cheese, salt, and pepper together.
-  5. When the chicken is finished cooking, increase the oven temperature to 450 degrees.  Let the chicken rest 1-2 minutes.
-  6. Melt the butter in microwave and combine with the hot sauce.
-  7. Slice the chicken crosswise into 1/4 inch slices.  Coat with the butter and hot sauce.
-  8. Spread the blue cheese mixture on the pizza crust.  Top with the chicken mixture.  Finish with mozzarella.
-  9. Bake for 12 minutes.
+instructions: 
+  - 1. Preheat oven to 350 degrees.
+  - 2. Coat chicken breasts with olive oil, salt and pepper.
+  - 3. When the oven is pre-heated, turn the broiler to high, and cook chicken breasts 6 inches from the heat source for about 5-6 minutes per side.
+  - 4. While the chicken is cooking, mash the sour cream, blue cheese, salt, and pepper together.
+  - 5. When the chicken is finished cooking, increase the oven temperature to 450 degrees.  Let the chicken rest 1-2 minutes.
+  - 6. Melt the butter in microwave and combine with the hot sauce.
+  - 7. Slice the chicken crosswise into 1/4 inch slices.  Coat with the butter and hot sauce.
+  - 8. Spread the blue cheese mixture on the pizza crust.  Top with the chicken mixture.  Finish with mozzarella.
+  - 9. Bake for 12 minutes.
 category: "pizza"
 ---
