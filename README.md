@@ -32,3 +32,4 @@ in CSS is [to play](https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_
 * [Information on jekyll collections](https://learn.cloudcannon.com/jekyll/introduction-to-jekyll-collections/).
 * There are [other filters](https://help.shopify.com/themes/liquid/filters/string-filters#capitalize) that are available, that aren't
 mentioned in the jekyll documentation.
+* [What the hell is a clearfix hack?](https://www.w3schools.com/howto/howto_css_clearfix.asp)

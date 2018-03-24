@@ -224,3 +224,9 @@ a:link,a:visited {
 .card-read-paragraph {
   line-height: 16px;
 }
+
+.recipe-home {
+  position: absolute;
+  bottom: 5px;
+  right: 0px;
+}
