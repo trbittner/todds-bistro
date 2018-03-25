@@ -2,15 +2,13 @@
 @import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
 
 html {
-  background: #FAF7F2;
-  background-image: url(https://s3.postimg.org/s1n3ji1ur/paper_fibers_2_X.png);
-  /* border-box ensures that the width and height of the box specified are the true
-     width and height.  Padding dimensions aren't added to the specified dimensions
-     to create a bigger box. */
-  box-sizing: border-box;
   font-family: 'Lato', sans-serif;
   font-size: 10px;
   font-weight: 400;
+}
+
+body {
+  background-image: url(https://s3.postimg.org/s1n3ji1ur/paper_fibers_2_X.png);
 }
 
 /**************************/
