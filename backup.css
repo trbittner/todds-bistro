@@ -131,10 +131,18 @@ a:link,a:visited {
   text-align: center;
 }
 
+.card-container {
+  width: 625px;
+  position: relative;
+  box-shadow: 10px 10px 25px #777;
+}
+
 .card {
   background-color: #fff;
-  width: 650px;
-  margin: 0 auto;
+  /* This site: https://www.w3schools.com/css/css_boxmodel.asp explains the difference between
+     margin and padding.  padding is the distance between an element's content and its own border.
+     margin is the distance between an element and another element. */
+  padding: 30px;
   /* Both this site: http://www.barelyfitz.com/screencast/html-training/css/positioning/ and this site:
      https://css-tricks.com/absolute-relative-fixed-positioining-how-do-they-differ/ explain positioning
      within a page. */
@@ -142,9 +150,15 @@ a:link,a:visited {
   z-index: 1;
 }
 
+.card-body {
+  display: inline-block;
+  width: 310px;
+  /* Float to the left of the containing element. */
+  float: left;
+}
 
 .card-header {
-  background-color: #fff;
+  margin-bottom: 15px;
 }
 
 .card-title {

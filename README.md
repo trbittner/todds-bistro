@@ -36,3 +36,4 @@ mentioned in the jekyll documentation.
 * [This site assisted me with layout inheritance](https://learn.cloudcannon.com/jekyll/introduction-to-jekyll-layouts/).
 * [This](http://app.xrespond.com/) can be used for responsive testing.
 * We use [this](https://designer.gravit.io/) for scanning and manipulating the drawings.
+* [`margin: 0 auto`](https://stackoverflow.com/questions/3170772/what-does-auto-do-in-margin0-auto) explained.
