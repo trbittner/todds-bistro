@@ -1,7 +1,6 @@
 ---
+layout: default
 ---
-
-{% include header.html %}
   <div class="paper">
     <div class="lines">
     <div class="cookbook-title">
@@ -22,4 +21,3 @@
     <div class="holes hole-middle"></div>
     <div class="holes hole-bottom"></div>    
   </div>
-{% include footer.html %}
