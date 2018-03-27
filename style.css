@@ -190,7 +190,7 @@ a:link,a:visited {
 
 .card-read-header {
   margin: 10px 0 0;
-  display: inline-block;
+  display: block;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 4px;
