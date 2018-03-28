@@ -1,24 +1,24 @@
 ---
 layout: default
 ---
-  <div class="card clearfix">
-    
-    <div class="card-header">
-      <div class="row">
-      <div class="col-sm-8">
+<div class="card">
+
+  <div class="card-header">
+    <div class="row">
+      <div class="col-lg-10">
         <span class="card-number card-circle subtle">{{ page.recipe-number }}</span>
         <span class="card-title subtle">{{ page.recipe-title }}</span>
       </div>
-      <div class="col-sm-4">
-        <a class="link-home" href="/index.html"><span class="icon ion-home"><span class="card-stat-text">Home</span></span></a>
-      </div>
+      <div class="col-lg-2">
+        <a class="float-lg-right" href="/index.html"><span class="icon ion-home"><span class="card-stat-text">Home</span></span></a>
       </div>
     </div>
-      
-    
-      <div class="card-body">
-        <div class="row">
-        <div class="col-sm-7">
+  </div>
+
+
+  <div class="card-body">
+    <div class="row">
+      <div class="col-sm-7">
         <div class="card-stats">
           <span class="icon ion-fork"><span class="card-stat-text">{{ page.servings }}</span></span>
           <span class="icon ion-clock"><span class="card-stat-text">{{ page.prep-time }}</span></span>
@@ -36,7 +36,7 @@ layout: default
         </p>
       </div>
       <div class="col-sm-5">
-        <img src="{{ page.image-path }}" alt="" class="card-media" />
+        <img src="{{ page.image-path }}" alt="" class="card-media float-md-right" />
       </div>
     </div>
   </div>

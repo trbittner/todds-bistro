@@ -106,11 +106,6 @@ a:link,a:visited {
 /*************************/
 /* The recipe card page. */
 /*************************/
-.clearfix::after {
-  content: "";
-  display: table;
-  clear: both;
-}
 
 .card-number {
   margin-top: 5px;
@@ -133,7 +128,7 @@ a:link,a:visited {
 
 .card {
   background-color: #fff;
-  width: 650px;
+  /* width: 650px; */
   margin: 0 auto;
   /* Both this site: http://www.barelyfitz.com/screencast/html-training/css/positioning/ and this site:
      https://css-tricks.com/absolute-relative-fixed-positioining-how-do-they-differ/ explain positioning
@@ -183,7 +178,6 @@ a:link,a:visited {
 }
 
 .card-media {
-  float: right;
   border: 1px solid #000;
   border-radius: 10px;
 }
@@ -198,9 +192,4 @@ a:link,a:visited {
 
 .card-read-paragraph {
   line-height: 16px;
-}
-
-.link-home {
-  display: inline-block;
-  float: right;
 }
