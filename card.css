@@ -1,0 +1,81 @@
+html {
+  font-family: 'Lato', sans-serif;
+  font-size: 10px;
+  font-weight: 400;
+}
+
+body {
+  background-image: url(https://s3.postimg.org/s1n3ji1ur/paper_fibers_2_X.png);
+}
+
+.card .card-header {
+  background-color: #fff;
+}
+
+.icon {
+  display: inline;
+  font-size: 18px;
+  margin-right: 25px;
+}
+
+.subtle {
+  color: #aaa;
+}
+
+.card-circle {
+  border: 1px solid #aaa;
+  border-radius: 50%;
+  /* Allows the element to be formatted as a block with height and width parameters, 
+     but it's styled inline like a <span> element */
+  display: inline-block;
+  font-size: 10px;
+  height: 25px;
+  width: 25px;
+  /* Specifies the height of the line the text is located on, independent of the font size.
+     This is similar to a ruled line on notebook paper.*/
+  line-height: 25px;
+  text-align: center;
+}
+
+.card-number {
+  margin-top: 5px;
+}
+
+.card-title {
+  font-size: 12px;
+  margin-left: 5px;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+}
+
+.card-stats {
+  color: #687861;
+}
+
+.card-stat-text {
+  margin-left: 5px;
+  font-size: 12px;
+}
+
+.card-description {
+  display: block;
+  font-weight: 300;
+  line-height: 16px;
+  margin: 10px 0 0;
+}
+
+.card-read-header {
+  display: block;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+.card-read-paragraph {
+  line-height: 16px;
+}
+
+.card-media {
+  border: 1px solid #000;
+  border-radius: 10px;
+}

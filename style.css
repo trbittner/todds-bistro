@@ -106,9 +106,18 @@ a:link,a:visited {
 /*************************/
 /* The recipe card page. */
 /*************************/
+.card .card-header {
+  background-color: #fff;
+}
 
-.card-number {
-  margin-top: 5px;
+.icon {
+  display: inline;
+  font-size: 18px;
+  margin-right: 25px;
+}
+
+.subtle {
+  color: #aaa;
 }
 
 .card-circle {
@@ -126,27 +135,13 @@ a:link,a:visited {
   text-align: center;
 }
 
-.card {
-  background-color: #fff;
-  /* width: 650px; */
-  margin: 0 auto;
-  /* Both this site: http://www.barelyfitz.com/screencast/html-training/css/positioning/ and this site:
-     https://css-tricks.com/absolute-relative-fixed-positioining-how-do-they-differ/ explain positioning
-     within a page. */
-  position: relative;
-  z-index: 1;
-}
-
-
-.card-header {
-  background-color: #fff;
+.card-number {
+  margin-top: 5px;
 }
 
 .card-title {
-  display: inline;
   font-size: 12px;
-  /* top margin is 5px, left and right are 5px, and bottom is 0px */
-  margin: 5px 5px 0px;
+  margin-left: 5px;
   letter-spacing: .5px;
   text-transform: uppercase;
 }
@@ -155,35 +150,19 @@ a:link,a:visited {
   color: #687861;
 }
 
-.icon {
-  display: inline;
-  font-size: 18px;
-  margin-right: 25px;
-}
-
 .card-stat-text {
   margin-left: 5px;
   font-size: 12px;
 }
 
-.subtle {
-  color: #aaa;
-}
-
 .card-description {
-  display: inline-block;
+  display: block;
   font-weight: 300;
   line-height: 16px;
   margin: 10px 0 0;
 }
 
-.card-media {
-  border: 1px solid #000;
-  border-radius: 10px;
-}
-
 .card-read-header {
-  margin: 10px 0 0;
   display: block;
   font-weight: 700;
   text-transform: uppercase;
@@ -192,4 +171,9 @@ a:link,a:visited {
 
 .card-read-paragraph {
   line-height: 16px;
+}
+
+.card-media {
+  border: 1px solid #000;
+  border-radius: 10px;
 }
