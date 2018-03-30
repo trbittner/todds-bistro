@@ -27,5 +27,6 @@ instructions:
   - 7. Slice the chicken crosswise into 1/4 inch slices.  Coat with the butter and hot sauce.
   - 8. Spread the blue cheese mixture on the pizza crust.  Top with the chicken mixture.  Finish with mozzarella.
   - 9. Bake for 12 minutes.
+image-path: https://s19.postimg.org/ptpt88ssz/buffalo-chicken-pizza.jpg
 category: "pizza"
 ---
