@@ -26,6 +26,12 @@ collections:
     output: true
 
 defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      stylesheet: "style.css"
   - 
     scope:
       path: ""
@@ -33,6 +39,7 @@ defaults:
     values:
       title: "Todd's Bistro"
       image-path: "https://s19.postimg.org/gl8l3go1f/under_construction.jpg"
+      stylesheet: "card.css"
 
 # Build settings
 markdown: kramdown
