@@ -37,3 +37,4 @@ mentioned in the jekyll documentation.
 * [This](http://app.xrespond.com/) can be used for responsive testing.
 * We use [this](https://designer.gravit.io/) for scanning and manipulating the drawings.
 * [`margin: 0 auto`](https://stackoverflow.com/questions/3170772/what-does-auto-do-in-margin0-auto) explained.
+* [This page](https://getbootstrap.com/docs/4.0/layout/overview/) gives @media queries for various breakpoint sizes.
