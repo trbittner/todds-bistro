@@ -40,3 +40,5 @@ mentioned in the jekyll documentation.
 * [This page](https://getbootstrap.com/docs/4.0/layout/overview/) gives @media queries for various breakpoint sizes.
 * We'll likely use [this](https://codepen.io/nicokoenig/pen/jGmGvV) for cooking classes.  It's from the 
 [same site](http://freefrontend.com/css-cards/#stacked-cards) we used for the recipe css.
+* Not that it's necessary, but here are alternatives to 
+[image storage](https://www.makeuseof.com/tag/4-imgur-alternatives-for-uploading-sharing-images/)
