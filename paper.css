@@ -1,9 +1,5 @@
 /* The @import rule must be at the top of the document (but after any @charset declaration).*/
-@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
-
-body {
-  background-image: url(https://s3.postimg.org/s1n3ji1ur/paper_fibers_2_X.png);
-}
+@import 'style.css';
 
 .paper {
   background: lightgoldenrodyellow;
@@ -90,4 +86,3 @@ a:link,a:visited {
 .block-link {
   display: block;
 }
-

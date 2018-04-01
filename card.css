@@ -1,12 +1,4 @@
-html {
-  font-family: 'Lato', sans-serif;
-  font-size: 10px;
-  font-weight: 400;
-}
-
-body {
-  background-image: url(https://s3.postimg.org/s1n3ji1ur/paper_fibers_2_X.png);
-}
+@import 'style.css';
 
 .card .card-header {
   background-color: #fff;
