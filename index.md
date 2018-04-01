@@ -10,9 +10,13 @@ stylesheet: paper.css
     <div class="lines container">
       <div class="row">
         <div class="col-md-1"></div>
-        <div class="col-12 col-md-11">
+        <div class="col-6 col-md-5">
           <div class="cookbook-title">Todd's Bistro</div>
         </div>
+        <div class="col-6 col-md-5">
+        <div class="backpage-title float-right"><a class="backpage-link" href="#">Cooking Tips</a></div>
+        </div>
+        <div class="col-md-1"></div>
       </div>
       
       <div class="row">

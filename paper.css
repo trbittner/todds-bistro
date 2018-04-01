@@ -19,10 +19,18 @@
   background-image: repeating-linear-gradient(lightgoldenrodyellow 0px, lightgoldenrodyellow 24px, steelblue 25px);
 }
 
-.cookbook-title {
+.cookbook-title, .backpage-title {
   font-size: 32px;
   font-weight: 700;
   margin-top: -15px;
+}
+
+.backpage-title {
+  transform: scale(-1,1);
+}
+
+a.backpage-link:link,a.backpage-link:visited {
+  color: #bbb;
 }
 
 .text {
@@ -75,12 +83,6 @@
 
 .hole-bottom {
   bottom: 10%;
-}  
-}
-
-a:link,a:visited {
-  color:blue;
-  text-decoration: none;
 }
 
 .block-link {
