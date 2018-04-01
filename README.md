@@ -38,3 +38,5 @@ mentioned in the jekyll documentation.
 * We use [this](https://designer.gravit.io/) for scanning and manipulating the drawings.
 * [`margin: 0 auto`](https://stackoverflow.com/questions/3170772/what-does-auto-do-in-margin0-auto) explained.
 * [This page](https://getbootstrap.com/docs/4.0/layout/overview/) gives @media queries for various breakpoint sizes.
+* We'll likely use [this](https://codepen.io/nicokoenig/pen/jGmGvV) for cooking classes.  It's from the 
+[same site](http://freefrontend.com/css-cards/#stacked-cards) we used for the recipe css.
