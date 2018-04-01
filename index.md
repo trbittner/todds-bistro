@@ -1,6 +1,6 @@
 ---
 layout: default
-stylesheet: paper.css
+stylesheet: frontpage.css
 ---
 <div class="row">
   <div class="col-md-1"></div>

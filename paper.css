@@ -46,11 +46,7 @@ a.backpage-link:link,a.backpage-link:visited {
   font-weight: 600;
 }
 
-
 @media (min-width: 768px) {
-  .paper {
-    min-height: 625px;
-  }
   /* The ::after selector adds content to the specified class.  It uses the class div as the reference point, so, 
    in the directive below, the styling will apply to the .paper class div, creating a red stripe 50px in from the 
    .paper div's origin. */
@@ -65,7 +61,6 @@ a.backpage-link:link,a.backpage-link:visited {
   
 .holes {
   position: absolute;
-  left: 10px;
   height: 25px;
   width: 25px;
   background: #faf7f2;

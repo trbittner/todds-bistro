@@ -1,0 +1,6 @@
+/* The @import rule must be at the top of the document (but after any @charset declaration).*/
+@import 'paper.css';
+
+.holes {
+  left: 10px;
+}
