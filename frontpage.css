@@ -1,6 +1,12 @@
 /* The @import rule must be at the top of the document (but after any @charset declaration).*/
 @import 'paper.css';
 
+@media (min-width: 768px) {
+  .paper::after {
+    left: 50px;
+  }
+}
+
 .holes {
   left: 10px;
 }

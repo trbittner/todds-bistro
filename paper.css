@@ -53,7 +53,6 @@ a.backpage-link:link,a.backpage-link:visited {
   .paper::after {
     content: '';
     position: absolute;
-    left: 50px;
     height: 100%;
     width: 2px;
     background: red;
