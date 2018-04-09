@@ -3,7 +3,7 @@ layout: recipe
 recipe-number: "06"
 recipe-title: Fried Chicken
 servings: "4"
-prep-time: "2h 30 minutes"
+prep-time: "2h 30 mins"
 level: "Medium"
 calories: "500"
 description: "The combination of brining the bird beforehand and hot oil leads to a chicken that's crispy on the outside and tender inside."
