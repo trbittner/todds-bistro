@@ -1,0 +1,31 @@
+/* The @import rule must be at the top of the document (but after any @charset declaration).*/
+@import 'backpage.css';
+
+.photo-container {
+  position: relative;
+  width: 65vmin;
+  height: 85vmin;
+}
+
+.photo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  border-radius: 2px;
+  box-shadow: 2px 2px 5px rgba(#111, .35);
+  transition: transform .35s ease-out;
+  transform: translate(var(--x), var(--y)) scale(.35) rotate(var(--angle));
+  will-change: transform;
+}
+
+.photo:before {
+  content: "";
+  display: block;
+  width: 90%;
+  height: 80;
+  background: var(--image) center center no-repeat;
+  background-size: cover;
+}
