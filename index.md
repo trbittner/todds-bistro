@@ -9,7 +9,9 @@ title: Todd's Bistro
       <div class="section-title">{{ recipe_group.name | capitalize }}</div>
       {% assign recipes = recipe_group.items | sort: 'recipe-title' %}
         {% for recipe in recipes %}
-          <a class="block-link" href="{{ site.baseurl }}{{ recipe.url }}">{{ recipe.recipe-title }}</a>
+          <div>
+            <a href="{{ site.baseurl }}{{ recipe.url }}">{{ recipe.recipe-title }}</a>
+          </div>
         {% endfor %}
     {% endfor %}   
 </div>
