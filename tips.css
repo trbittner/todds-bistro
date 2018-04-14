@@ -26,6 +26,16 @@
   display: block;
   width: 90%;
   height: 80;
-  background: var(--image) center center no-repeat;
+  background: var(--image) center center no-repeat; 
   background-size: cover;
+}
+
+.photo:after {
+  content: var(--caption);
+  display: block;
+  font-weight: 500;
+  color: #555;
+  font-size: 12pt;
+  opacity: .75;
+  text-align: center;
 }
