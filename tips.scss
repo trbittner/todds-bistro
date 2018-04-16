@@ -5,16 +5,13 @@
 
 .photo-container {
   display: block;
-  position: absolute;
   border: 5px solid;
-  width: 85%;
-  height: 95%;
 }
 
 .photo {
   position: relative;
-  top: 0;
-  left: 0;
+  top: 30px;
+  left: 30px;
   width: 200px;
   height: 200px;
   background-color: darken(white,2%);
