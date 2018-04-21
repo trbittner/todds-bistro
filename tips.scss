@@ -3,23 +3,21 @@
 /* The @import rule must be at the top of the document (but after any @charset declaration).*/
 @import 'backpage.css';
 
-.photo-container {
-  display: block;
-  border: 5px solid;
-}
-
 .photo {
   position: relative;
-  top: 30px;
-  left: 30px;
-  width: 200px;
-  height: 200px;
+  top: 100px;
+  left: 200px;
+  width: 345px;
+  height: 375px;
   background-color: darken(white,2%);
   border-radius: 2px;
   box-shadow: 2px 2px 5px rgba(#111, .35);
   
+  transition: transform .35s ease-out;
+  transform: scale(.65) translate(var(--x),var(--y)) rotate(var(--angle));
+  
   &:hover {
-    transform: scale(1) rotate(0 deg);
+    transform: scale(1) rotate(0deg);
     z-index: 1;
   }
 }
