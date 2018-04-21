@@ -30,6 +30,6 @@ instructions:
   - 10. Top sandwiches with pepper slices.
   - 11. Add mozzarella to the sandwiches.
   - 12. Roast sandwiches 10 minutes.
-image-path: https://s19.postimg.org/iqq5tm1zn/eggplant-mozzarella-sandwich.jpg
+image-path: https://s19.postimg.cc/iqq5tm1zn/eggplant-mozzarella-sandwich.jpg
 category: "sandwiches"
 ---
