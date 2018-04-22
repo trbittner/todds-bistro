@@ -13,6 +13,8 @@
   border-radius: 2px;
   box-shadow: 2px 2px 5px rgba(#111, .35);
   
+  --image: url(https://s19.postimg.cc/gl8l3go1f/under_construction.jpg);
+  
   transition: transform .35s ease-out;
   transform: scale(.65) translate(var(--x),var(--y)) rotate(var(--angle));
   
@@ -22,6 +24,14 @@
   }
 }
 
+.photo:before {
+  content:"";
+  display: block;
+  background: var(--image) center no-repeat;
+  width: 90%;
+  height: 85%;
+  margin: 5%;
+}
 
 .photo:after {
   content: var(--caption);
@@ -29,6 +39,5 @@
   font-weight: 500;
   color: #555;
   font-size: 12pt;
-  opacity: .75;
   text-align: center;
 }
