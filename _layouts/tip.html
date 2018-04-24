@@ -1,0 +1,8 @@
+---
+layout: main
+stylesheet: tips.css
+---
+{% for photo in page.photos %}
+<div class="photo" style="--angle: {{ angle }}; --x: {{ x-shift }}; --y: {{ y-shift }}; --caption: {{ caption }};">
+</div>
+{% endfor %}
