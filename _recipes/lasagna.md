@@ -2,7 +2,7 @@
 layout: recipe
 recipe-number: "07"
 recipe-title: Lasagna
-servings: "2"
+servings: "6"
 prep-time: "45 mins"
 level: "Beginner"
 calories: "600"
