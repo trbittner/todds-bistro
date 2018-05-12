@@ -1,6 +1,5 @@
 ---
 layout: recipe
-recipe-number: "07"
 recipe-title: Lasagna
 servings: "6"
 prep-time: "45 mins"

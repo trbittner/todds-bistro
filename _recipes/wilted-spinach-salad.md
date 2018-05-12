@@ -1,6 +1,5 @@
 ---
 layout: recipe
-recipe-number: "04"
 recipe-title: Wilted Spinach With Warm Feta and Olive Oil Dressing
 servings: "2"
 prep-time: "15 mins"

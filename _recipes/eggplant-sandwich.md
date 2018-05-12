@@ -1,6 +1,5 @@
 ---
 layout: recipe
-recipe-number: "05"
 recipe-title: Open Face Eggplant Sandwiches
 servings: "4"
 prep-time: "30 mins"

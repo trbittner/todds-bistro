@@ -1,6 +1,5 @@
 ---
 layout: recipe
-recipe-number: "03"
 recipe-title: Eggplant Parmesan
 servings: "2"
 prep-time: "45 mins"

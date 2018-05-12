@@ -1,6 +1,5 @@
 ---
 layout: recipe
-recipe-number: "06"
 recipe-title: Fried Chicken
 servings: "4"
 prep-time: "2h 30 mins"

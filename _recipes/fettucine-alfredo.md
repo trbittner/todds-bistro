@@ -1,6 +1,5 @@
 ---
 layout: recipe
-recipe-number: "01"
 recipe-title: Chicken and Spinach Fettucine Alfredo
 servings: "3"
 prep-time: "45 min"
