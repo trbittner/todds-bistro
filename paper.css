@@ -2,14 +2,16 @@
 @import 'style.css';
 
 .paper {
+  position: absolute;
   background: lightgoldenrodyellow;
   box-shadow: 0px 0px 5px 0px #888;
   font-family: 'Shadows Into Light', cursive;
-  min-height: 600px;
+  height: 600px;
+  left: 5%;
+  width: 90%;
 }
 
 .lines {
-  position: absolute;
   left: 0;
   margin-top: 40px;
   height: calc(100% - 40px);
@@ -25,8 +27,15 @@
   margin-top: -15px;
 }
 
+.cookbook-title {
+  position: absolute;
+  left: 55px;
+}
+
 .backpage-title {
   transform: scale(-1,1);
+  position: absolute;
+  right: 55px;
 }
 
 a.backpage-link:link,a.backpage-link:visited {
@@ -34,6 +43,9 @@ a.backpage-link:link,a.backpage-link:visited {
 }
 
 .text {
+  position: absolute;
+  top: 75px;
+  left: 55px;
   line-height: 25px;
   font-size: 14px;
   margin-top: 18px;
@@ -50,10 +62,11 @@ a.backpage-link:link,a.backpage-link:visited {
   /* The ::after selector adds content to the specified class.  It uses the class div as the reference point, so, 
    in the directive below, the styling will apply to the .paper class div, creating a red stripe 50px in from the 
    .paper div's origin. */
-  .paper::after {
+  .paper::before {
     content: '';
     position: absolute;
     height: 100%;
+    left: 45px;
     width: 2px;
     background: red;
   }

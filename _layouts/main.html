@@ -1,39 +1,19 @@
 ---
 layout: default
 ---
-<div class="row">
-  <div class="col-md-1"></div>
-  <div class="paper col-12 col-md-10">
-    <!-- It appears that because the "lines" class isn't a row, it breaks the bootstrap flow and the associated
-         padding.  As a result, we have to re-declare the "container" class. -->
-    <div class="lines container">
-      <div class="row">
-        <div class="col-md-1"></div>
-        <div class="col-6 col-md-5">
-          <div class="cookbook-title">{{ page.title }}</div>
-        </div>
-        <div class="col-6 col-md-5">
-          <div class="backpage-title float-right">
-            {% if page.title == site.title %}            
-            <a class="backpage-link" href="{{site.baseurl}}{% link backpage.md %}">Cooking Tips</a>
-            {% else %}
-            <a class="backpage-link" href="{{site.baseurl}}{% link index.md %}">{{ site.title }}</a>
-            {% endif %}
-          </div>
-        </div>
-        <div class="col-md-1"></div>
+<div class="paper">
+    <div class="lines">
+      <div class="cookbook-title">{{ page.title }}</div>
+      <div class="backpage-title">
+        {% if page.title == site.title %}            
+          <a class="backpage-link" href="{{site.baseurl}}{% link backpage.md %}">Cooking Tips</a>
+        {% else %}
+          <a class="backpage-link" href="{{site.baseurl}}{% link index.md %}">{{ site.title }}</a>
+        {% endif %}
       </div>
-
-      <div class="row">
-        <div class="col-md-1"></div>
-        <div class="col-12 col-md-11">
-          {{ content }}
-        </div>
-      </div>
+      {{ content }}
     </div>
     <div class="holes hole-top"></div>
     <div class="holes hole-middle"></div>
     <div class="holes hole-bottom"></div>
-  </div>
-  <div class="col-md-1"></div>
 </div>
