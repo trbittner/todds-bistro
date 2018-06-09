@@ -1,49 +1,22 @@
 ---
-layout: default
+layout: main
 ---
-<div class="row">
-  <div class="col-lg-2"></div>
-  <div class="col-sm-12 col-lg-8">
-    <div class="card">
-
-      <div class="card-header">
-        <div class="row">
-          <div class="col-md-10 col-lg-9 order-md-1 order-12">
-            <span class="card-title subtle">{{ page.recipe-title }}</span>
-          </div>
-          <div class="col-md-2 col-lg-3 order-md-12 order-1">
-            <a class="float-lg-right" href="/index.html">
-              <span class="icon ion-home"><span class="card-stat-text">Home</span></span>
-            </a>
-          </div>
-        </div>
-      </div>
-
-      <div class="card-body">
-        <div class="row">
-          <div class="col-sm-7">
-            <div class="card-stats">
-              <span class="icon ion-fork"><span class="card-stat-text">{{ page.servings }}</span></span>
-              <span class="icon ion-clock"><span class="card-stat-text">{{ page.prep-time }}</span></span>
-              <span class="icon ion-connection-bars"><span class="card-stat-text">{{ page.level }}</span></span>
-              <span class="icon ion-flame"><span class="card-stat-text">{{ page.calories }}</span></span>
-            </div>
-            <span class="card-description subtle">{{ page.description | markdownify }}</span>
-            <span class="card-read-header">Ingredients</span>
-            <p class="card-read-paragraph">
-              {{ page.ingredients | join: '; ' }}
-            </p>
-            <span class="card-read-header">Instructions</span>
-            <p class="card-read-paragraph">
-              {{ page.instructions | join: ' ' }}
-            </p>
-          </div>
-          <div class="col-sm-5">
-            <img src="{{ page.image-path }}" alt="" class="card-media float-md-right" />
-          </div>
-        </div>
-      </div>
-    </div>
+<div class="text recipe-text">
+  <div class="section-title">{{ page.recipe-title }}</div>
+  <div class="card-stats">
+    <span class="icon ion-fork"><span class="card-stat-text">{{ page.servings }}</span></span>
+    <span class="icon ion-clock"><span class="card-stat-text">{{ page.prep-time }}</span></span>
+    <span class="icon ion-connection-bars"><span class="card-stat-text">{{ page.level }}</span></span>
+    <span class="icon ion-flame"><span class="card-stat-text">{{ page.calories }}</span></span>
   </div>
-  <div class="col-lg-2"></div>
+  <div class="card-description">{{ page.description | markdownify }}</div>
+  <span class="card-read-header ingredient-header">Ingredients</span>
+  <p class="card-read-paragraph">
+    {{ page.ingredients | join: '; ' }}
+  </p>
+  <span class="card-read-header instruction-header">Instructions</span>
+  <p class="card-read-paragraph">
+    {{ page.instructions | join: ' ' }}
+  </p>
+  <img src="{{ page.image-path }}" alt="" class="card-media float-md-right" />
 </div>
