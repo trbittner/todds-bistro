@@ -1,5 +1,4 @@
-/* The @import rule must be at the top of the document (but after any @charset declaration).*/
-@import 'paper.css';
+@import 'main.css';
 
 @media (min-width: 768px) {
   .paper::after {

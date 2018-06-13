@@ -1,7 +1,16 @@
 ---
 ---
 /* The @import rule must be at the top of the document (but after any @charset declaration).*/
-@import 'style.css';
+@import url('https://fonts.googleapis.com/css?family=Shadows+Into+Light');
+
+body {
+  background-image: url(https://s3.postimg.cc/s1n3ji1ur/paper_fibers_2_X.png);
+}
+
+a:link,a:visited {
+  color:blue;
+  text-decoration: none;
+}
 
 %paper {
   position: absolute;
