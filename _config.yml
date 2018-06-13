@@ -33,7 +33,7 @@ defaults:
       path: ""
       type: "pages"
     values:
-      stylesheet: "style.css"
+      stylesheet: "main.css"
   - 
     scope:
       path: ""
