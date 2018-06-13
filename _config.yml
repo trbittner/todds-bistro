@@ -42,6 +42,7 @@ defaults:
       title: "Todd's Bistro"
       image-path: "https://s19.postimg.cc/gl8l3go1f/under_construction.jpg"
       stylesheet: "frontpage.css"
+      recipe-page: true
 
 # Build settings
 markdown: kramdown

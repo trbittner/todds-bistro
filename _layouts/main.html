@@ -1,7 +1,11 @@
 ---
 layout: default
 ---
-<div class="paper">
+{% if page.recipe-page %}
+  <div class="recipe-page">
+{% else %}
+  <div class="main-page">
+{% endif %}    
     <div class="lines">
       {% if page.title == site.title %}
         <div class="cookbook-title">

@@ -1,14 +1,35 @@
+---
+---
 /* The @import rule must be at the top of the document (but after any @charset declaration).*/
 @import 'style.css';
 
-.paper {
+%paper {
   position: absolute;
   background: lightgoldenrodyellow;
   box-shadow: 0px 0px 5px 0px #888;
   font-family: 'Shadows Into Light', cursive;
+  left: 1%;
+  width: 98%;
+  @media (min-width: 768px) {
+    left: 15%;
+    width: 70%;
+  }
+}
+
+.main-page {
+  @extend %paper;
   height: 600px;
-  left: 5%;
-  width: 90%;
+}
+
+.recipe-page {
+  @extend %paper;
+  height: 1400px;
+  @media (min-width: 480px) {
+    height: 1000px;
+  }
+  @media (min-width: 1366px) {
+    height: 600px;
+  }
 }
 
 .lines {
@@ -22,20 +43,25 @@
 }
 
 .cookbook-title, .backpage-title {
+  position: absolute;
   font-size: 32px;
   font-weight: 700;
   margin-top: -15px;
 }
 
 .cookbook-title {
-  position: absolute;
-  left: 55px;
+  left: 5px;
+  @media (min-width: 768px) {
+    left: 55px;
+  }
 }
 
 .backpage-title {
+  right: 5px;
   transform: scale(-1,1);
-  position: absolute;
-  right: 55px;
+  @media (min-width: 768px) {
+    right: 55px;
+  }
 }
 
 a.frontpage-link:link,a.frontpage-link:visited {
@@ -49,12 +75,15 @@ a.backpage-link:link,a.backpage-link:visited {
 .text {
   position: absolute;
   top: 75px;
-  left: 75px;
+  left: 15px;
   line-height: 25px;
   font-size: 14px;
   margin-top: 18px;
   /* If the content overflows the boundaries of the box, then simply drop the content from rendering. */
   overflow: hidden;
+  @media (min-width: 768px) {
+    left: 75px;
+  }
 }
 
 .recipe-text {
@@ -70,7 +99,7 @@ a.backpage-link:link,a.backpage-link:visited {
   /* The ::after selector adds content to the specified class.  It uses the class div as the reference point, so, 
    in the directive below, the styling will apply to the .paper class div, creating a red stripe 50px in from the 
    .paper div's origin. */
-  .paper::before {
+  .main-page::before, .recipe-page::before {
     content: '';
     position: absolute;
     height: 100%;
@@ -89,22 +118,27 @@ a.backpage-link:link,a.backpage-link:visited {
   box-shadow: inset 0px 0px 2px 0px #888;
 }
 
-.hole-top {
-  top: 10%; 
+.hole-top, .hole-middle, .hole-bottom {
+  display: none;
 }
 
-.hole-middle {
-  top: 50%;
+@media (min-width: 768px) {
+  .hole-top {
+    top: 10%;
+    display: block;
+  }
+
+  .hole-middle {
+    top: 50%;
+    display: block;
+  }
+
+  .hole-bottom {
+    bottom: 10%;
+    display: block;
+  }
 }
 
-.hole-bottom {
-  bottom: 10%;
-}
-
-.block-link {
-  display: block;
-}
-  
 .card-stats {
   color: #687861;
 }
@@ -140,8 +174,19 @@ a.backpage-link:link,a.backpage-link:visited {
   margin-top: -15px;
 }
 
+.recipe-div {
+  text-align: center;
+  height: 315px;
+  @media (min-width: 480px) {
+    width: 315px;
+    float: right;
+  }
+  @media (max-width: 480px) {
+    margin-bottom: 10px;
+  }
+}
+
 .recipe-img {
-  float: right;
-  margin: 10px;
+  margin: auto;
   border: solid 2px;
 }
