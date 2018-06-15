@@ -42,3 +42,6 @@ mentioned in the jekyll documentation.
 [same site](http://freefrontend.com/css-cards/#stacked-cards) we used for the recipe css.
 * Not that it's necessary, but here are alternatives to 
 [image storage](https://www.makeuseof.com/tag/4-imgur-alternatives-for-uploading-sharing-images/)
+* From the scss file (re imports) - The @import rule must be at the top of the document (but after any @charset declaration).
+* From the scss file (re gradients) - This indicates that from 0 - 24px on the gradient, transition from yellow to yellow (so, no transition).
+From 24 - 25px transition from yellow to blue (essentially creating thin blue lines).
