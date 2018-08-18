@@ -34,6 +34,6 @@ instructions:
   - 8. Broil chicken 5-6 minutes per side 6 inches away from heat source.
   - 9. Allow chicken to rest.  Then slice horizontally.
   - 10. Top corn tortilla with cheese, onion, chicken, and salsa.
-image-path: https://s19.postimg.cc/c7o4w7sj7/taco_night.png
+image-path: https://s19.postimg.cc/7adx6twir/taco_night.jpg
 category: "mains"
 ---
