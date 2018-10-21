@@ -39,9 +39,9 @@ a.backpage-link:link,a.backpage-link:visited {
 
 .recipe-page {
   @extend %paper;
-  height: 1400px;
+  height: 800px;
   @media (min-width: 480px) {
-    height: 1000px;
+    height: 600px;
   }
   @media (min-width: 1366px) {
     height: 600px;
