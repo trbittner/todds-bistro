@@ -45,3 +45,4 @@ mentioned in the jekyll documentation.
 * From the scss file (re imports) - The @import rule must be at the top of the document (but after any @charset declaration).
 * From the scss file (re gradients) - This indicates that from 0 - 24px on the gradient, transition from yellow to yellow (so, no transition).
 From 24 - 25px transition from yellow to blue (essentially creating thin blue lines).
+* [YAML cheat sheet | https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/]
