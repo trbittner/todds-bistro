@@ -5,7 +5,7 @@ servings: "3"
 prep-time: "45 mins"
 level: "Beginner"
 calories: "610"
-description: "This combines some ready made ingredients, like _Frank's Hot Sauce_ and a pre-made pizza crust, with homemade blue cheese dressing."
+description: "This combines some ready made ingredients, like _Frank's Hot Sauce_ and a pre-made pizza crust, with homemade blue cheese dressing. I use _Stonefire Grill_ for the crust, but anything will do."
 ingredients:
   - A pre-made pizza crust.  I use _Stonefire Grill_, but anything will do.
   - 2 tbsp. hot sauce
